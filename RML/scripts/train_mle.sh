@@ -5,7 +5,7 @@ dev_tgt=""
 test_src=""
 test_tgt=""
 
-model_name="mle_v1"
+model_name=""
 mkdir ${model_name}
 touch ${model_name}/${model_name}.logs.txt
 logs_path="/${model_name}/${model_name}.logs.txt"
