@@ -5,3 +5,5 @@ To train with Reward Augmented Maximum Likelihood Objective: [train_raml.sh](htt
 
 
 Pre-trained models: https://www.dropbox.com/sh/nqhyb3rx8quckiw/AAAPwKgOFzsaFtdRH8HjqoJQa?dl=0
+
+Note: Use PyTorch 0.3.1 version and Python 3.6 version.
