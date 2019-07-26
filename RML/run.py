@@ -1190,12 +1190,12 @@ def interactive(args):
     if args.cuda:
         model = model.cuda()
 
-    while True:
-        src_sent = agrs.input_sent
-        src_sent = src_sent.strip().split(' ')
-        hyps = model.translate(src_sent)
-        for i, hyp in enumerate(hyps, 1):
-            print('Hypothesis #%d: %s' % (i, ' '.join(hyp)))
+   
+    src_sent = agrs.input_sent
+    src_sent = src_sent.strip().split(' ')
+    hyps = model.translate(src_sent)
+    for i, hyp in enumerate(hyps, 1):
+        print('Hypothesis #%d: %s' % (i, ' '.join(hyp)))
 
 
 def sample(args):
