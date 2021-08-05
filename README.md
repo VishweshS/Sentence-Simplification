@@ -1,5 +1,5 @@
 # Sentence Simplification
-My work at MT-NLP lab (IIIT-Hyderabad)<br />
+Work done at MT-NLP lab (IIIT-Hyderabad)<br />
 
 1. Explored the various deep learning methods and the datasets for the sentence simplification task, performed error analysis for each method.
 2. Implemented the state of the art method for Split and Rephrase task (subtask of sentence simplification) and identified the different types of errors. Refer to [Seq2Seq_Copy](https://github.com/VishweshS/Sentence-Simplification/tree/master/Seq2Seq_Copy) for details.
